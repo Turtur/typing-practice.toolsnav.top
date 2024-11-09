@@ -75,7 +75,7 @@ pnpm install
 4. 启动开发服务器：
 
 ```bash
-pnpm dev
+pnpm dev --host 127.0.0.1
 ```
 
 5. 在浏览器中访问 `http://localhost:3000` 即可使用应用。

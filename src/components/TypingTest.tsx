@@ -331,7 +331,7 @@ export default function TypingTest({ text, eclipsedTime }: { text: string, eclip
                         />
                     </div>
 
-                    <KeyboardLayout pressedKey={lastPressedKey} nextKey={nextKey} />
+                    {/* <KeyboardLayout pressedKey={lastPressedKey} nextKey={nextKey} /> */}
 
                     <div className="relative">
                         {!isStarted ? (
